@@ -1,0 +1,33 @@
+h1 {
+  text-align:center;
+    color:black;
+    background-color:#e2f2bf;
+    font-size:44px;
+}
+
+a { text-align:center;
+  color:black;
+  font-size:34px;
+  background-color: #e2f2bf;
+}
+
+ul {color:black;
+  background-color: #ffcff2
+}
+
+li {color:black;
+  display:inline;
+  font-size: 40px;
+   padding: 60px 66px;
+
+}
+
+p { color:black;
+  background-color:white;
+  font-size:20px;
+  outline-color:black;
+  outline-style: double;
+  padding: 15px;
+  font-family:helvetica;
+
+}
