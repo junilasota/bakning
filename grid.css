@@ -34,36 +34,25 @@ nav{
   grid-row: 3/4;
 }
 
-a {
-  grid-column: 2/5;
-  grid-row: 3/4;
-}
+
 
 section{
   grid-column: 2/4;
   grid-row:2/3;
 }
 
-h2 {grid-column: 1/3;
-  grid-row: 2/4;
-
-}
-p { grid-column: 1/3;
-  grid-row: 4/5;
-
-}
 
 header{
   grid-column: 1/-1;
   grid-row: 1/2;
 }
-
-.ingredienser{
-  grid-column: 1/3;
-  grid-row: 3/4;
-
+footer{
+  grid-column: 1/-1;
+  grid-row: 4/5;
 }
 
+
+/* Startsida*/
 .navlista{
   grid-column: 1/-1;
   grid-row: 1/2;
@@ -73,19 +62,33 @@ h1{
   grid-column: 1/-1;
   grid-row: 1/2;
 }
-
-
-footer{
-  grid-column: 1/-1;
-  grid-row: 4/5;
+a {
+  grid-column: 2/5;
+  grid-row: 3/4;
 }
 
-.chokladmuffinsbild
+
+
+/* Recept 1*/
+h2 {grid-column: 1/3;
+  grid-row: 2/4;
+
+}
+p { grid-column: 1/3;
+  grid-row: 4/5;
+
+}
+.ingredienser{
+  grid-column: 1/3;
+  grid-row: 3/4;
+
+}
+.muffinsbild
 {
   grid-column:4/6;
   grid-row:4/5;
 }
-
+/* Recept 2*/
 .tårtarubrik
 { grid-column: 1/3;
   grid-row: 5/7;
@@ -98,6 +101,31 @@ footer{
 
 .instruktioner2{
   grid-column: 1/3;
-  grid-row: 7/8;
+  grid-row: 7/9;
+}
 
+.tårtabild{
+  grid-column:4/6;
+  grid-row:7/8;
+}
+
+/* Recept 3*/
+.kakarubrik
+{ grid-column: 1/3;
+  grid-row: 9/11;
+}
+
+.ingredienser3{
+  grid-column: 1/3;
+  grid-row: 10/11;
+}
+
+.instruktioner3{
+  grid-column: 1/3;
+  grid-row: 11/13;
+}
+
+.kakabild{
+  grid-column:4/6;
+  grid-row:11/12;
 }

@@ -5,14 +5,21 @@ h1 {
     font-size:44px;
 }
 
-a { text-align:center;
+.receptlänk { text-align:center;
   color:black;
   font-size:34px;
   background-color: #e2f2bf;
+
+}
+
+a { text-align:center;
+  color:black;
+  font-size:34px;
+  background-color: #f2c7d6;
 }
 
 .navlista {color:black;
-  background-color: #ffcff2
+  background-color: #f2c7d6
 }
 
 li {color:black;
@@ -25,7 +32,8 @@ li {color:black;
 .ingredienser
   { color:black;
     background-color:white;
-    outline-color:black;
+    outline-color:#b1dde3;
+    outline-width: thick;
     outline-style: double;
 
 }
@@ -42,12 +50,15 @@ li {color:black;
 p { color:black;
   background-color:white;
   font-size:20px;
-  outline-color:black;
+  outline-color:#b1dde3;
   outline-style: double;
+  outline-width: thick;
   padding: 15px;
   font-family:helvetica;
 
 }
+
+
 
 * {box-sizing:border-box}
 
@@ -143,11 +154,12 @@ p { color:black;
   from {opacity: .4}
   to {opacity: 1}
 }
-
+/* Recept 2*/
 .ingredienser2
   { color:black;
     background-color:white;
-    outline-color:black;
+    outline-color:#f2c7d6;
+    outline-width: thick;
     outline-style: double;
 
 }
@@ -163,9 +175,37 @@ p { color:black;
 .instruktioner2 {color:black;
   background-color:white;
   font-size:20px;
-  outline-color:black;
+  outline-color:#f2c7d6;
   outline-style: double;
+  outline-width: thick;
   padding: 15px;
   font-family:helvetica;
 
+}
+/* Recept 3*/
+.ingredienser3
+  { color:black;
+    background-color:white;
+    outline-color:#fad987;
+    outline-width: thick;
+    outline-style: double;
+
+}
+
+.list3 {
+  color:black;
+    background-color:white;
+    font-size:20px;
+    padding: 10px;
+    font-family:helvetica;
+  }
+
+.instruktioner3 {color:black;
+  background-color:white;
+  font-size:20px;
+  outline-color:#fad987;
+  outline-style: double;
+  outline-width: thick;
+  padding: 15px;
+  font-family:helvetica;
 }
