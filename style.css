@@ -3,25 +3,37 @@ h1 {
     color:black;
     background-color:#e2f2bf;
     font-size:44px;
+    font-family: 'Itim', cursive;
+}
+
+h2 {
+  text-align:center;
+  color:black;
+  font-family: 'Itim', cursive;
+  font-size: 30px
+
 }
 
 .receptlänk { text-align:center;
   color:black;
   font-size:34px;
   background-color:#e2f2bf;
+    font-family: 'Itim', cursive;
 }
 
 a { text-align:center;
   color:black;
   font-size:34px;
   background-color: #f2c7d6;
+    font-family: 'Itim', cursive;
 }
 
 .navlista {color:black;
   background-color: #f2c7d6
+
 }
 
-li {color:black;
+.navlista li {color:black;
   display:inline;
   font-size: 40px;
    padding: 60px 66px;
@@ -43,8 +55,8 @@ li {color:black;
     font-size:20px;
     padding: 10px;
     font-family:helvetica;
-
-
+    font-family: 'Roboto Condensed', sans-serif;
+    display:inline;
 }
 p { color:black;
   background-color:white;
@@ -54,6 +66,7 @@ p { color:black;
   outline-width: thick;
   padding: 15px;
   font-family:helvetica;
+  font-family: 'Roboto Condensed', sans-serif;
 
 }
 
@@ -118,17 +131,7 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+
 
 .active, .dot:hover {
   background-color: #717171;
@@ -153,8 +156,17 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 480px) {
   .prev, .next,.text {font-size: 11px}
+  .navlista li {color:black;
+    display:inline;
+    font-size: 10px;
+  }
+  .navlista li a{color:black;
+    display:inline;
+    font-size: 10px;
+
+  }
 }
 
 /* Recept 2*/
@@ -173,6 +185,7 @@ img {vertical-align: middle;}
     font-size:20px;
     padding: 10px;
     font-family:helvetica;
+    display:inline;
   }
 
 .instruktioner2 {color:black;
@@ -201,6 +214,7 @@ img {vertical-align: middle;}
     font-size:20px;
     padding: 10px;
     font-family:helvetica;
+    display:inline;
   }
 
 .instruktioner3 {color:black;
