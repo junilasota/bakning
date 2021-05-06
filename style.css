@@ -21,22 +21,21 @@ h2 {
     font-family: 'Itim', cursive;
 }
 
-a { text-align:center;
-  color:black;
-  font-size:34px;
-  background-color: #f2c7d6;
-    font-family: 'Itim', cursive;
-}
+
 
 .navlista {color:black;
   background-color: #f2c7d6
 
 }
-
-.navlista li {color:black;
+.navlista li{
   display:inline;
-  font-size: 40px;
+}
+.navlista li a{color:black;
+  text-align: center;
+  font-size: 34px;
+  background-color: #f2c7d6;
    padding: 60px 66px;
+   font-family: 'Itim', cursive;
 
 }
 
