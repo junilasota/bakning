@@ -24,7 +24,10 @@ h2 {
 
 
 .navlista {color:black;
-  background-color: #f2c7d6
+  background-color: #f2c7d6;
+  display: flex;
+  justify-content:center;
+
 
 }
 .navlista li{
@@ -34,13 +37,15 @@ h2 {
   text-align: center;
   font-size: 34px;
   background-color: #f2c7d6;
-   padding: 60px 66px;
+   padding: 0px 10px;
    font-family: 'Itim', cursive;
 
 }
 
 .ingredienser
-  { color:black;
+  { display:flex;
+    justify-content: space-around;
+    color:black;
     background-color:white;
     outline-color:#b1dde3;
     outline-width: thick;
@@ -170,7 +175,9 @@ img {vertical-align: middle;}
 
 /* Recept 2*/
 .ingredienser2
-  { color:black;
+  { display:flex;
+    justify-content: space-around;
+    color:black;
     background-color:white;
     outline-color:#f2c7d6;
     outline-width: thick;
@@ -199,7 +206,9 @@ img {vertical-align: middle;}
 }
 /* Recept 3*/
 .ingredienser3
-  { color:black;
+  { display:flex;
+    justify-content: space-around;
+    color:black;
     background-color:white;
     outline-color:#fad987;
     outline-width: thick;
