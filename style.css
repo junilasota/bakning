@@ -25,11 +25,10 @@ h2 {
 
 .navlista {color:black;
   background-color: #f2c7d6;
-  display: flex;
+  display:flex;
   justify-content:center;
-
-
 }
+
 .navlista li{
   display:inline;
 }
@@ -43,13 +42,11 @@ h2 {
 }
 
 .ingredienser
-  { display:flex;
-    justify-content: space-around;
+  { display: flex;
+    justify-content:space-around;
     color:black;
     background-color:white;
-    outline-color:#b1dde3;
-    outline-width: thick;
-    outline-style: double;
+
 
 }
 
@@ -57,7 +54,6 @@ h2 {
   color:black;
     background-color:white;
     font-size:20px;
-    padding: 10px;
     font-family:helvetica;
     font-family: 'Roboto Condensed', sans-serif;
     display:inline;
@@ -179,9 +175,7 @@ img {vertical-align: middle;}
     justify-content: space-around;
     color:black;
     background-color:white;
-    outline-color:#f2c7d6;
-    outline-width: thick;
-    outline-style: double;
+
 
 }
 
@@ -189,7 +183,6 @@ img {vertical-align: middle;}
   color:black;
     background-color:white;
     font-size:20px;
-    padding: 10px;
     font-family:helvetica;
     display:inline;
   }
@@ -206,13 +199,11 @@ img {vertical-align: middle;}
 }
 /* Recept 3*/
 .ingredienser3
-  { display:flex;
-    justify-content: space-around;
+  { display: flex;
+    justify-content:space-around;
     color:black;
     background-color:white;
-    outline-color:#fad987;
-    outline-width: thick;
-    outline-style: double;
+  
 
 }
 
@@ -220,7 +211,6 @@ img {vertical-align: middle;}
   color:black;
     background-color:white;
     font-size:20px;
-    padding: 10px;
     font-family:helvetica;
     display:inline;
   }
